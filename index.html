@@ -27,6 +27,29 @@
             grid-template-rows: auto 1fr auto;
             min-height: 100vh;
         }
+
+        nav {
+            grid-area: nav;
+            background-color: #333;
+            padding: 1rem;
+        }
+
+        .nav-list {
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+        }
+
+        .nav-list li a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+        }
+
+        .nav-list li a:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
     </style>
 </head>
 <body>
